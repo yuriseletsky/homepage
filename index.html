@@ -5,6 +5,21 @@
   <meta charset="UTF-8" />
   <title>Résumé</title>
   <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
+  <style>
+    .tags span:hover,
+    li:hover {
+      font-weight: bold;
+      transition: 200ms;
+      cursor: pointer;
+    }
+
+    .tags span {
+      padding: 2px;
+      display: inline-block;
+      border: 2px solid gray;
+      margin: 3px;
+    }
+  </style>
 </head>
 
 <body>
@@ -27,7 +42,7 @@
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                           <path
                             d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z" />
-                          </svg>
+                        </svg>
                         <span>DonaldTrump</span>
                       </a>
                     </li>
@@ -36,7 +51,7 @@
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                           <path
                             d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z" />
-                          </svg>
+                        </svg>
                         <span>realDonaldTrump</span>
                       </a>
                     </li>
@@ -90,95 +105,144 @@
               <ul class="timeline">
                 <li>2017<br>
                   Became 45th president of the United States</li>
-                  <li>2016<br>
+                <li>2016<br>
                   Won election race with 77 votes more than Clinton, yippe-kee-yay!</li>
-                  <li>2015<br>
+                <li>2015<br>
                   Became the most important Republican nominating for presidential election run</li>
-                  <li>2009<br>
+                <li>2009<br>
                   Changed my mind and became Republican again</li>
-                  <li>2005<br>
-                  Started Trump University with Michael Sexton and Jonathan Spitalny: no grades, certificates  and other bureaucracy, but program offered courses in real estate, asset management entrepreneurship, and wealth creation. 98% students gave positive reviews while studying, however some of these ungrateful gringos filed lawsuits against Trump University after the course. I had to pay $25 million to settle that...</li>
-                  <li>2002<br>
-                  Acquired the former Hotel Delmonico, which was renovated and reopened in 2004 as the Trump Park Avenue. I sure do like my surname!</li>
-                  <li>2001<br>
+                <li>2005<br>
+                  Started Trump University with Michael Sexton and Jonathan Spitalny: no grades, certificates and other
+                  bureaucracy, but program offered courses in real estate, asset management entrepreneurship, and wealth
+                  creation. 98% students gave positive reviews while studying, however some of these ungrateful gringos
+                  filed lawsuits against Trump University after the course. I had to pay $25 million to settle that...
+                </li>
+                <li>2002<br>
+                  Acquired the former Hotel Delmonico, which was renovated and reopened in 2004 as the Trump Park
+                  Avenue. I sure do like my surname!</li>
+                <li>2001<br>
                   Completed Trump World Tower and joined the Democratic Party</li>
-                  <li>1999<br>
-                  Started buying golf courses. They are very cheap, I have 18 of them now in USA and abroad! Also switched to the Reform Party that year</li>
-                  <li>1997<br>
-                  Began a multi-building development along the Hudson River, which was named Trump Place. Me and the other investors sold our shares for $1.8 billion and that was then the biggest residential sale in the history of New York City</li>
-                  <li>1996<br>
-                  Acquired the Bank of Manhattan Trust Building, which was a vacant seventy-one story skyscraper on Wall Street. After an extensive renovation, the high-rise was renamed the Trump Building</li>
-                  <li>1994<br>
-                  Refurbished the Gulf and Western Building on Columbus Circle, turned it into a 44-story luxury property known as Trump International Hotel and Tower</li>
-                  <li>1989 ― 1992<br>
-                  Ran a second hand airline called Trump Shuttle. What a waste of money, I had to sell it, now it is American Airlines Shuttle, btw</li>
-                  <li>1989, 1990<br>
-                  Learned about Tour de France and decided to hold my very own Tour de Trump. Is America not great enough for that cycling competition?</li>
-                  <li>1988<br>
-                  Acquired the Plaza Hotel in Manhattan for $407 million, invested $50 million to restore the building and boosted it  from three-star to four-star hotel (I called it "the Mona Lisa" and sold it for a lot of cash in 1995)</li>
-                  <li>1987<br>
+                <li>1999<br>
+                  Started buying golf courses. They are very cheap, I have 18 of them now in USA and abroad! Also
+                  switched to the Reform Party that year</li>
+                <li>1997<br>
+                  Began a multi-building development along the Hudson River, which was named Trump Place. Me and the
+                  other investors sold our shares for $1.8 billion and that was then the biggest residential sale in the
+                  history of New York City</li>
+                <li>1996<br>
+                  Acquired the Bank of Manhattan Trust Building, which was a vacant seventy-one story skyscraper on Wall
+                  Street. After an extensive renovation, the high-rise was renamed the Trump Building</li>
+                <li>1994<br>
+                  Refurbished the Gulf and Western Building on Columbus Circle, turned it into a 44-story luxury
+                  property known as Trump International Hotel and Tower</li>
+                <li>1989 ― 1992<br>
+                  Ran a second hand airline called Trump Shuttle. What a waste of money, I had to sell it, now it is
+                  American Airlines Shuttle, btw</li>
+                <li>1989, 1990<br>
+                  Learned about Tour de France and decided to hold my very own Tour de Trump. Is America not great
+                  enough for that cycling competition?</li>
+                <li>1988<br>
+                  Acquired the Plaza Hotel in Manhattan for $407 million, invested $50 million to restore the building
+                  and boosted it from three-star to four-star hotel (I called it "the Mona Lisa" and sold it for a lot
+                  of cash in 1995)</li>
+                <li>1987<br>
                   Registered as a Republican</li>
-                  <li>1985<br>
-                  I bought the Mar-a-Lago estate in Palm Beach and turned it into a private club.You can join if you pay $200K initiation fee (and there is another annual fee for members, it is very expensive to be rich). That year I also opened a casino called Trump Castle. My wife Ivana became a manager, because she is another Trump!</li>
-                  <li>1983<br>
-                  I purchased New Jersey Generals, an American football team. I changed team's play schedule and filed an antitrust lawsuit against United States Football League, so NJG are not doing so good now, but back then they were great!</li>
-                  <li>1980<br>
-                  Started developing the Trump Tower skyscraper in Manhattan, I payed a crew of undocumented Polish workers to demolish the historic Bonwit Teller store, including art deco features. All this to make architectural critic Paul Goldberger say in 1983 that the tower's atrium is "the most pleasant interior public space to be completed in New York in some years". At the same time I also started a repair job on the Wollman Rink in Central Park and completed the work in three months for $1.95 million, which was $775,000 less than the initial budget!</li>
-                  <li>1978<br>
-                  Purchased a 50 percent stake in the derelict Commodore Hotel and turned it into the Grand Hyatt Hotel in 2 years of remodeling</li>
-                  <li>1971<br>
+                <li>1985<br>
+                  I bought the Mar-a-Lago estate in Palm Beach and turned it into a private club.You can join if you pay
+                  $200K initiation fee (and there is another annual fee for members, it is very expensive to be rich).
+                  That year I also opened a casino called Trump Castle. My wife Ivana became a manager, because she is
+                  another Trump!</li>
+                <li>1983<br>
+                  I purchased New Jersey Generals, an American football team. I changed team's play schedule and filed
+                  an antitrust lawsuit against United States Football League, so NJG are not doing so good now, but back
+                  then they were great!</li>
+                <li>1980<br>
+                  Started developing the Trump Tower skyscraper in Manhattan, I payed a crew of undocumented Polish
+                  workers to demolish the historic Bonwit Teller store, including art deco features. All this to make
+                  architectural critic Paul Goldberger say in 1983 that the tower's atrium is "the most pleasant
+                  interior public space to be completed in New York in some years". At the same time I also started a
+                  repair job on the Wollman Rink in Central Park and completed the work in three months for $1.95
+                  million, which was $775,000 less than the initial budget!</li>
+                <li>1978<br>
+                  Purchased a 50 percent stake in the derelict Commodore Hotel and turned it into the Grand Hyatt Hotel
+                  in 2 years of remodeling</li>
+                <li>1971<br>
                   Was promoted to president of the company and renamed it The Trump Organization</li>
-                  <li>1968<br>
+                <li>1968<br>
                   Began my career at my father's real estate development company, Elizabeth Trump &amp; Son</li>
               </ul>
               <h3>Personal Life</h3>
               <ul class="timeline">
                 <li>2006<br>
                   Melania gained United States citizenship and gave birth to our son, Barron</li>
-                  <li>2005<br>
+                <li>2005<br>
                   Married her</li>
-                  <li>1998<br>
+                <li>1998<br>
                   Met my future third wife, Melania Knauss</li>
-                  <li>1999<br>
+                <li>1999<br>
                   Divorced Marla ¯_(ツ)_/¯</li>
-                  <li>1993<br>
-                  Married Marla and had a daughter, we named her Tiffany, because I like Tiffany &amp; Company jewellery as well</li>
-                  <li>1992<br>
-                  Started affair with Marla Maples, so I had to divorce. God knows I love nice women, I love them all!</li>
-                  <li>1984<br>
+                <li>1993<br>
+                  Married Marla and had a daughter, we named her Tiffany, because I like Tiffany &amp; Company jewellery
+                  as well</li>
+                <li>1992<br>
+                  Started affair with Marla Maples, so I had to divorce. God knows I love nice women, I love them all!
+                </li>
+                <li>1984<br>
                   Birth of Eric Trump</li>
-                  <li>1982<br>
+                <li>1982<br>
                   Birth of Ivanka Trump</li>
-                  <li>1977<br>
+                <li>1977<br>
                   My first son is born. I called him Donald, of course!</li>
-                  <li>1977<br>
+                <li>1977<br>
                   Married Czech model Ivana Zelníčková</li>
               </ul>
             </div>
             <div class="six wide column">
               <section>
                 <h3>Languages</h3>
-                <p class="tags small"><span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span<a href="/ru-ru" hreflang="ru" rel="alternate" class="language" lang="ru">&#x1f1f7;&#x1f1fa; <span>РУССКИЙ</span></a></p>
+                <p class="tags small"><span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span><a href="/ru-ru"
+                      hreflang="ru" rel="alternate" class="language" lang="ru">&#x1f1f7;&#x1f1fa;
+                    <span class="language">РУССКИЙ</span></a></p>
               </section>
               <section>
                 <h3>Skills</h3>
-                <p class="tags small">NEGOTIATING COUNTING REMODELING WRITING ACING SINGING REPORTING INCORPORATING SELLING ADVERTISING HOSTING COMPETING TWITTING PARENTING GAMBLING DATING SUING ORGANIZING FUNDING DEBATING ADVISING PRESBYTERIANING</p>
+                <p class="tags small"><span>NEGOTIATING</span> <span>COUNTING</span> <span>REMODELING</span>
+                  <span>WRITING</span> <span>ACING</span> <span>SINGING</span> <span>REPORTING</span>
+                  <span>INCORPORATING</span> <span>SELLING</span> <span>ADVERTISING</span> <span>HOSTING</span>
+                  <span>COMPETING</span> <span>TWITTING</span> <span>PARENTING</span> <span>GAMBLING</span>
+                  <span>DATING</span> <span>SUING</span> <span>ORGANIZING</span> <span>FUNDING</span>
+                  <span>DEBATING</span> <span>ADVISING</span> <span>PRESBYTERIANING</span></p>
               </section>
               <section>
                 <h3>Character</h3>
-                <p class="tags small">ADJUSTED CALM AMBITIOUS COMPETITIVE SOCIABLE DIRECT HOSTILE CARELESS IGNORANT INQUISITIVE BOLD CONFIDENT MISCHIEVOUS CHARMING INTERESTING DARING COLORFUL LAZY SELF-PROMOTING</p>
+                <p class="tags small"><span>ADJUSTED</span> <span>CALM</span> <span>AMBITIOUS</span>
+                  <span>COMPETITIVE</span> <span>SOCIABLE</span> <span>DIRECT</span> <span>HOSTILE</span>
+                  <span>CARELESS</span> <span>IGNORANT</span> <span>INQUISITIVE</span> <span>BOLD</span>
+                  <span>CONFIDENT</span> <span>MISCHIEVOUS</span> <span>CHARMING</span> <span>INTERESTING</span>
+                  <span>DARING</span> <span>COLORFUL</span> <span>LAZY</span> <span>SELF-PROMOTING</span></p>
               </section>
               <section>
                 <h3>Likes&#x1f603;</h3>
-                <p class="tags small">BILLIONS FILET-O-FISH BIG MAC CHINA QUARTER POUNDER DIET COKE TARIFFS BIBLE ARTOF DEAL PATRIOTS BEAUTIFUL MODELS GOLD REAL ESTATE WAR PROTESTERS CONSTRUCTION RUSSIANS BANKS SPORTS WOMEN MEXICO RED HAT KOREANS GOLF EVERYBODY</p>
+                <p class="tags small"><span>BILLIONS</span> <span>FILET-O-FISH</span> <span>BIG</span> <span>MAC</span>
+                  <span>CHINA</span> <span>QUARTER</span> <span>POUNDER</span> <span>DIET</span> <span>COKE</span>
+                  <span>TARIFFS</span> <span>BIBLE</span> <span>ARTOF</span> <span>DEAL</span> <span>PATRIOTS</span>
+                  <span>BEAUTIFUL</span> <span>MODELS</span> <span>GOLD</span> <span>REAL</span> <span>ESTATE</span>
+                  <span>WAR</span> <span>PROTESTERS</span> <span>CONSTRUCTION</span> <span>RUSSIANS</span>
+                  <span>BANKS</span> <span>SPORTS</span> <span>WOMEN</span> <span>MEXICO</span> <span>RED</span>
+                  <span>HAT</span> <span>KOREANS</span> <span>GOLF</span> <span>EVERYBODY</span></p>
               </section>
               <section>
                 <h3>Dislikes&#x1f61e;</h3>
-                <p class="tags small">DOGS MEDIA CNN GERMANS MEXICANS IMMIGRANTS SHITHOLE COUNTRIES UNATTRACTIVE WOMEN BLACKS SUSHI HOT-DOGS ALCOHOL FRUIT CHRISTMAS PARTIES LIBERALS</p>
+                <p class="tags small"><span>DOGS</span> <span>MEDIA</span> <span>CNN</span> <span>GERMANS</span>
+                  <span>MEXICANS</span> <span>IMMIGRANTS</span> <span>SHITHOLE</span> <span>COUNTRIES</span>
+                  <span>UNATTRACTIVE</span> <span>WOMEN</span> <span>BLACKS</span> <span>SUSHI</span>
+                  <span>HOT-DOGS</span> <span>ALCOHOL</span> <span>FRUIT</span> <span>CHRISTMAS</span>
+                  <span>PARTIES</span> <span>LIBERALS</span></p>
               </section>
               <section>
                 <h3>Wants&#x1f97a;</h3>
-                <p class="tags small bulleted">BE HEALTHY GROW A TREE BUILD TRUMP AIRPORT HAVE A TASTE DO A HARLEM SHAKE IN CONGRESS TO GOLF MORE OFTEN WIN ALL THE COURT SUITS</p>
+                <p class="tags small bulleted"><span>BE HEALTHY GROW A TREE BUILD TRUMP AIRPORT HAVE A TASTE DO A HARLEM
+                    SHAKE IN CONGRESS TO GOLF MORE OFTEN WIN ALL THE COURT SUITS</span></p>
               </section>
               <section>
                 <h3>Articles</h3>
@@ -193,16 +257,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
